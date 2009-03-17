@@ -1,0 +1,24 @@
+h1. EnvironmentFlag
+
+Here goes my first attempt at a plugin... take it easy on me!
+
+Environment flag presents a constant in your face notification for the environment of your display page. 
+This came out of necessity as my company is always jumping around from development, staging, demo, and 
+production environments. This can get confusing when you have multiple instances of your site open and are 
+not sure which environment you're actually looking at. The Environment Flag will display on all environments 
+except production.
+
+It's not a lot of work to do manually but after using it on all of my sites... it's nice to finally have it 
+available in just a few commands
+
+
+h2. Example
+
+* Just add this simple tag anywhere in your layout: 
+  <pre><code><%= render_environment_flag %></code></pre>
+  __I usually prefer directly under the <body> tag.__
+* You can also add your own message:
+  <pre><code><%= render_environment_flag("Am I really in the #{Rails.env} environment?") %></code></pre>
+* Style as necessary.  I have included a basic style example in /example/example.css
+
+Copyright (c) 2009 "Matt Polito":http://www.mattpolito.info, released under the MIT license

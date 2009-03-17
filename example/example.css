@@ -1,0 +1,14 @@
+.env_notice {
+  -moz-border-radius: 15px;
+  background: #ff9c9f none repeat scroll 0 0;
+  border: 1px solid #a20003;
+  color: #222222;
+  height: 25px;
+  line-height: 2em;
+  margin: 0.5em;
+  opacity: 0.9;
+  position: absolute;
+  text-align: center;
+  width: 99%;
+  z-index: 500; 
+  }
