@@ -16,7 +16,7 @@ h2. Example
 
 * Just add this simple tag anywhere in your layout: 
   <pre><code><%= render_environment_flag %></code></pre>
-  __I usually prefer directly under the <body> tag.__
+  __I usually prefer directly under the body tag.__
 * You can also add your own message:
   <pre><code><%= render_environment_flag("Am I really in the #{Rails.env} environment?") %></code></pre>
 * Style as necessary.  I have included a basic style example in /example/example.css
